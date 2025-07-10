@@ -1,0 +1,30 @@
+projects:
+
+  - title: "Quantized GAN for Complex Music Generation from Dance Videos"
+    subtitle: "Vision and Language"
+    thumbnail: "assets/projects/2022_ECCV/ZY_ECCV.png"
+    url: "https://github.com/L-YeZhu/D2M-GAN"
+    selected: y
+
+
+  - title: "LONDON: Lipschitz Continuity Guided Knowledge Distillation"
+    subtitle: "Network Compression"
+    thumbnail: "assets/projects/2021_ICCV/SYZ_ICCV.jpg"
+    url: "https://github.com/42Shawn/LONDON/tree/master"
+    selected: y
+
+
+  - title: "Saying the Unseen: Video Descriptions via Dialog Agents"
+    subtitle: "Vision and Language"
+    thumbnail: "assets/projects/2021_PAMI/fig2.png"
+    url: "https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020"
+    selected: y
+
+
+  - title: "Describing Unseen Videos via Multi-Modal Cooperative Dialog Agents"
+    subtitle: "Vision and Language"
+    thumbnail: "assets/projects/2020_ECCV/thumbnail.png"
+    url: "https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020"
+    selected: y
+
+

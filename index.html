@@ -1,0 +1,319 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== BGI ========== -->
+<img src="assets/others/demo.png" width="100%" height=width*1980/4032>
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="lab">
+  <h4>About Our Lab</h4>
+  <p>
+
+  Our Computer Vision and Multimedia Laboratory (CVM-Lab) is affiliated with IIT (Illinois Institute of Technology) at Chicago, IL. Our research work is committed to enabling machines with the ability to intelligently perceive, understand and interact with humans and the real world via multiple sensory information from vision, language, audio, and other sources. Concretely, we aim to develop theoretical and practical research projects for multimodal learning and its various applications, biomedical image analysis, and neural network compression.
+</p>
+
+<p>
+  Our CVM-Lab activity collaborates with other laboratories and industries, and always looks for postdoc research fellows and prospective Ph.D. students to join us. Please contact <a href="https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en" target="_blank"> Prof. Yan Yan </a> at <a href="mailto:yyan34@iit.edu">yyan34@iit.edu</a> with your CV for opening positions.
+  </p>
+
+</div>
+
+
+
+<!-- ========== News ========== -->
+<!-- Update the recent news here! -->
+<div class="docs-section" id="news">
+  <h4>Lab News</h4>
+  <p> 07-2023: Two papers accepted to ICCV 2023.</p>
+  <p> 02-2023: One paper accepted to CVPR 2023.</p>
+  <p> 01-2023: One paper accepted to ICLR 2023.</p>
+  <p> 10-2022: One paper accepted to WACV 2023.</p>
+  <p> 07-2022: Four papers accepted to ECCV 2022.</p>
+  <p> 06-2022: One paper accepted to ACM Multimedia 2022.</p>
+  <p> 07-2021: One paper accepted to ICCV 2021.</p>
+  <p> 06-2021: One paper about vision and language accepted to TPAMI 2021.</p>
+  <p> 02-2021: One paper about vision and audio learning accepted to ICASSP 2021.</p>
+</div>
+
+
+
+
+
+<!--  ========== People ==========  -->
+<div class="docs-section" id="people">
+  <h4>Lab Members</h4>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#tabs1" onclick="showTab(1,3)">Faculty</div></li>
+    <li><div class="button active" data-ref="#tabs2" onclick="showTab(2,3)" >Current</div></li>
+    <li><div class="button" data-ref="#tabs3" onclick="showTab(3,3)">Alumni</div></li>
+  </ul>
+
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="tabs1">
+      {% assign faculty-members = site.data.faculty.members | where: "current", "y" %}
+      {% for member in faculty-members %}
+        {% assign index_modulo = forloop.index0 | modulo:4 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="three columns">
+            <div class="member-container">
+
+                <div class="member-image-container">
+                  <a href="{{ member.url }}">
+                    <img src="{{ member.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ member.title }}</b> <br/>
+                  {{ member.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 3%}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="tab-content">
+<!--   <div id="tabs-2"> -->
+  <div class="tab-pane active" id="tabs2">
+      {% assign current-members = site.data.members.members | where: "current", "y" %}
+      {% for member in current-members %}
+        {% assign index_modulo = forloop.index0 | modulo:4 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="three columns">
+            <div class="member-container">
+
+                <div class="member-image-container">
+                  <a href="{{ member.url }}">
+                    <img src="{{ member.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ member.title }}</b> <br/>
+                  {{ member.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 3%}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+
+  <div class="tab-content">
+    <div class="tab-pane " id="tabs3">
+    <p> <a href="https://userweb.cs.txstate.edu/~k_b459/" target="_blank">Keshav Bhandari</a>, PhD student during 09/2018-07/2022. Data Scientist, Tesla. </p>
+    <p> <a href="https://scholar.google.com/citations?user=NIv_aeQAAAAJ&hl=en" target="_blank">Gaowen Liu</a>, visiting during 09/2018-09/2020. Data Scientist, Cisco. </p>
+    <p> <a href="https://aihuazheng.github.io" target="_blank">Aihua Zheng</a>, visiting during 09/2019-08/2020. Associate Professor, Anhui University. </p>
+    <p> <a href="https://hanxjing.github.io/" target="_blank">Xianjing Han</a>, visiting during 09/2019-08/2020. Ph.D. Student, Shandong University. </p>
+    <p> Na Zheng, visiting during 09/2019-08/2020. Ph.D. Student, Shandong University. </p>
+    <p> Songsong Wu, visiting during 08/2018-09/2019. Associate Professor, Guangdong University of Petrochemical Technology. </p>
+    <p> <a href="http://disi.unitn.it/~hao.tang/" target="_blank">Hao Tang</a>, visiting during 06/2018-05/2019. Postdoc, ETH CV Lab. </p>
+    <p> <a href="https://vana77.github.io/" target="_blank">Yutian Lin</a>, visiting during 09/2018-03/2019. Associate Professor, Wuhan University. </p>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Research Works</h4>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul> 
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications_selected.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="project-column">
+            <div class="project-container">
+                <div class="project-image-container">
+                  <!-- <img src="{{ paper.thumbnail }}" width="200" height="120" style="vertical-align:middle" class="center"> -->
+                  <img src="{{ paper.thumbnail }}" class="u-max-full-width" class="center">
+                </div> 
+              </div>
+        </div>
+
+        <div class="paper-columns">
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code| prepend: site.baseurl }}" target="_blank">Code</a>
+            {% endif %}
+          </div>
+        </div>
+        <div style="height:34px"></div>
+      </div>
+
+    {% endfor %}
+    </div>
+  </div>
+
+  <div class="tab-content">
+    <div class="tab-pane fade" id="papers-all">
+      {% assign all_papers = site.data.publications_all.papers | where: "selected", "n" %}
+      {% for paper in all_papers %}
+      <div class="pub-columns">
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+</div>
+</div>
+
+
+
+<!--  ========== PROJECTS ==========  -->
+<!-- <div class="docs-section" id="projects">
+ <h4>Selected Projects</h4> -->
+
+<!--   <ul class="tab-nav">
+    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
+    <li><div class="button" data-ref="#projects-all">All</div></li> 
+  </ul> -->
+
+<!--   <div class="tab-content">
+    <div class="tab-pane active" id="projects-selected">
+      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
+      {% for project in selected_projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="projects-all">
+      {% for project in site.data.projects.projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+ -->
+
+
+
+<!-- 
+<div class="docs-section" id="template">
+  Thanks to <a href="https://github.com/msaveski/www_personal" target="_blank">Martin Saveski</a> for providing the template for the web design. 
+
+</div>
+ -->

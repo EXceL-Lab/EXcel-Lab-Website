@@ -1,0 +1,70 @@
+papers:
+
+  - title: "Saying the Unseen: Video Descriptions via Dialog Agents"
+    authors: "Ye Zhu, Yu Wu, Yi Yang, and Yan Yan"
+    venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021"
+    thumbnail: "assets/publications/YZ_PAMI21.png"
+    paper_pdf: "https://arxiv.org/pdf/2106.14069.pdf"
+    code: "https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020"
+    selected: y
+
+
+  - title: "Unsupervised Neural Tracing In Densely Labeled Multispectral Brainbow Images"
+    authors: "Bin Duan, Logan Walker, DouglasRoossien, Fred Shen, Dawen Cai, Yan Yan"
+    venue: "IEEE International Symposium on Biomedical Imaging (ISBI), 2021"
+    paper_pdf: "https://www.biorxiv.org/content/biorxiv/early/2020/06/08/2020.06.07.138941.full.pdf"
+    selected: n
+
+
+  - title: "Learning Audio-Visual Correlations From Variational Cross-Modal Generations"
+    authors: "Ye Zhu, Yu Wu, Hugo Latapie, Yi Yang, and Yan Yan"
+    venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021"
+    paper_pdf: "https://arxiv.org/pdf/2102.03424.pdf"
+    code: "https://github.com/L-YeZhu/Learning-Audio-Visual-Correlations"
+    selected: n
+
+
+  - title: "Describing Unseen Videos via Multi-Modal Cooperative Dialog Agents"
+    authors: "Ye Zhu, Yu Wu, Yi Yang, and Yan Yan"
+    venue: "European Conference on Computer Vision (ECCV), 2020"
+    paper_pdf: "https://arxiv.org/pdf/2008.07935.pdf"
+    code: "https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020"
+    selected: y
+
+
+  - title: "Revisiting Optical Flow Estimation in 360 Videos"
+    authors: "K. Bhandari, Z. Zong, and Yan Yan"
+    venue: "International Conference on Pattern Recognition (ICPR), 2020"
+    paper_pdf: "https://arxiv.org/abs/2010.08045"
+    selected: n
+
+
+  - title: "Audio-Visual Event Localization via Recursive Fusion by Joint Co-Attention"
+    authors: "Bin Duan, Hao Tang, Wei Wang, Ziliang Zong, Guowei Yang, Yan Yan"
+    venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2020"
+    paper_pdf: "https://openaccess.thecvf.com/content/WACV2021/papers/Duan_Audio-Visual_Event_Localization_via_Recursive_Fusion_by_Joint_Co-Attention_WACV_2021_paper.pdf"
+    selected: n
+
+
+  - title: "EGOK360: A 360 Egocentric Kinetic Human Activity Video Dataset"
+    authors: "K. Bhandari, Mario A. DeLaGarza, Z. Zong, Hugo Latapie, Y. Yan"
+    venue: "International conference on Image Processing (ICIP), 2020"
+    paper_pdf: "https://arxiv.org/abs/2010.08055"
+    selected: n
+
+
+  - title: "Hierarchical HMM for Eye Movement Classifications"
+    authors: "Ye Zhu, Yu Wu, Hugo Latapie, Yi Yang, and Yan Yan"
+    venue: "European Conference on Computer Vision Workshop (ECCV Workshop), 2020"
+    paper_pdf: "https://arxiv.org/pdf/2008.07961.pdf"
+    selected: n
+
+
+  - title: " An IoT Edge Computing Framework Using Cordova Accessor Host"
+    authors: "Ngu, A. H., Eyitayo, J., Yang, G., Campbell, C., Sheng, Q. Z., and Ni, J."
+    venue: "IEEE Internet of Things Journal"
+    paper_pdf: "https://ieeexplore.ieee.org/document/9446337/authors#authors"
+    selected: n
+
+
+
