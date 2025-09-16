@@ -6,76 +6,8 @@ members:
   #   url: "https://l-yezhu.github.io/"
   #   current: n
 
-  - title: "Bin Duan"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/BinDuan_updated.jpg"
-    url: "https://tuffr5.github.io/"
-    current: y
-
-  - title: "Yuzhang Shang"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/YuzhangShang.jpg"
-    url: "https://42shawn.github.io/yuzhang.io/"
-    current: y
-
-  - title: "Changchang Sun"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/Changchang_Sun.png"
+  - title: "Kunyang Li"
+    subtitle: "Ph.D. student, UCF"
+    thumbnail: "assets/members/KunyangLi.jpg"
     url: ""
     current: y
-
-  - title: "Bin Xie"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/BinXie.jpg"
-    url: ""
-    current: y
-
-  - title: "Mark Leischner (Part-Time)"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/Leischner.jpg"
-    url: ""
-    current: y
-
-  - title: "Jianyuan Ni"
-    subtitle: "Ph.D. student, TX State"
-    thumbnail: "assets/members/JianyuanNi.jpeg"
-    url: "https://jiany-ctrl.github.io"
-    # url: "https://userweb.cs.txstate.edu/~j_n317/"
-    current: y
-
-  - title: "Zhenghao Zhao"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/ZhenghaoZhao.png"
-    url: ""
-    current: y
-
-  - title: "Weitai Kang"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/WeitaiKang.jpeg"
-    url: "https://weitaikang.github.io/"
-    current: y
-
-  - title: "Junyi Wu"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/JunyiWu.png"
-    url: ""
-    current: y
-
-  - title: "Gengyu Zhang"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/GengyuZhang.jpg"
-    url: ""
-    current: y
-
-  - title: "Kaiang Wen"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/Wenkaiang.png"
-    url: ""
-    current: y
-
-  - title: "Haoxuan Wang"
-    subtitle: "Ph.D. student, IIT"
-    thumbnail: "assets/members/Wanghaoxuan.jpg"
-    url: ""
-    current: y
-
